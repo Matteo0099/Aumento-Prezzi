@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+          background-image: url('./sito_gpu/sfondo_2.jpg');
+        }
+    </style> 
+
+    <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <body style="font: Poppins;">
+    
+    <center>
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+        #header {
+            font-size: 24px;
+            background-color:#002424;
+            padding:10px;
+            text-align:center;
+            color:white;
+        }
+        #footer{
+            background-color:black;
+            text-align:center;
+            padding:5px;
+            margin-top:8px;
+            color:white;
+            max-width: 5200px;
+            max-height: 2140px;
+            @media only screen and (max-width:620px) {
+            /*smartphone*/
+            .options, .main, .course {
+            width:110%;
+                }
+            }
+        }
+        </style>
+        </head>
+
+        <body>
+            <div id="header">
+                <h1>
+                    <a name = "inizio">ZIPPO107's WEBSITE</a>
+                </h1>
+            </div>
+
+            <br><br>
+            <div style=" width:65%;border: 4px ridge rgb(110, 110, 110) ; box-sizing: border-box; text-align: center; font-size: 14px; font: Poppins">
+                <h2 style = "font-size: 20px; text-align: center;">ABOUT ZIPPO107'S TECNOLOGIES WEB</h2>
+                <h2 style = "font-size: 14px; text-align: center;">Tecnology, Eletronic, Animation & WebPage-Development</h2>
+            </div>
+
+            <br><br><br>
+
+        <h style = "font-size: 18px; font: Bodoni MT">
+            <strong>SOCIALS:</strong>
+        </h>
+
+        <br><br>
+
+        <div style="text-align: center; font-size: 14px;">
+            <a href="http://www.zippo107.tk/">  
+                <img src="./sito_gpu/zippo_107 logo.png"height="72" width="72"> 
+            </a>
+            
+            &ensp;&ensp;&ensp;&ensp;
+
+            <a href=https://www.instagram.com/itsmatteomania/">
+                <img src="./sito_gpu/insta_logo1.jpg"height="72" width="72">
+            </a>
+        </div>
+            
+        <br><br><br><br>
+
+        </center>
+    </div>
+    </body>
+
+    <br><br>
+ 
+
+
+    <head>
+        <link href="./sito_gpu/css-1.css" rel="stylesheet" type="text/css">
+
+        <h1 style = "text-align: justify; font-size: 30px; text-align: center; text-decoration:underline; text-underline-position:auto"> 
+            <a name = "#inizio"> ANDAMENTO PREZZI SCHEDE VIDEO: </a>
+        </h1>
+        
+    </head>
+
+    <br><br>
+
+    <center>
+    <div style=" width:65%;border: 5px ridge rgb(110, 110, 110) ; box-sizing: border-box; text-align: center; font-size: 14px;">
+        <h2>
+            Come tutti ben sappiamo, i prezzi delle schede video dalla pandemia di COVID-19, sono aumentati <br> 
+            sempre di più, fino a raggiungere il loro picco, come mostrato nel grafico ovvero in data <br> 
+            16 maggio 2020, fine del lockdown mondiale. Le aziende di semi-conduttori erano chiuse, i <br> 
+            materiali che una volta venivano esportati ogni giorno via mare e terra, non potevano più <br> 
+            essere trasportati perchè non erano considerati beni di prima necessità e quindi erano bloccati <br> 
+            in Cina, produttore primo al mondo di materie prime per i semi-conduttori e altri componenti <br>
+            legati all'elettronica.
+        </h2>
+    </div>
+    </center>
+
+    <br><br><br><br>
+
+    <body>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <div align = "center" valign = "middle">
+    <div id="myChart" style=" text-align:center; width:100%; max-width:1600px; height:700px;"></div>
+    </div>
+
+    <script>
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Contry', 'aumento perc'],
+        ['Italy',250],
+        ['France',215],
+        ['Spain',180],
+        ['USA',155],
+        ['Argentina',135],
+        ['Hawaii', 120],
+        ['CHINA', 115]
+    ]);
+
+    var options = {
+        title:'AUMENTO PERCENTUALE PREZZI NELLE VARIE PARTI DEL MONDO'
+    };
+
+    var chart = new google.visualization.BarChart(document.getElementById('myChart'));
+        chart.draw(data, options);
+    }
+    </script>
+    </body>
+    
+    <br><br><br>
+
+    <h4 style = "font-size: 20px; text-align: center;">
+        In italia, come possiamo vedere, l'aumento è stato quasi 3 volte il prezzo della scheda in media;
+    </h4>
+
+    <br>
+
+    <center>
+    <link href="./sito_gpu/css-2.css" rel="stylesheet" type="text/css">
+    <img src = "sito_gpu/AMD-nVidia-Retail-Price-Trend-2021-v5.png">
+    </center>
+
+    <br><br>
+
+    <h5 style = "font-size: 20px; text-align: center;">
+        Questo perchè in italia non ci sono aziende di rivenditori Nvidia/Amd, e neanche tante centrali che producono termoconduttori;
+    </h5>
+
+    <br><br><br>
+
+    <div style = "text-align: center;" >
+        <h6 style = "font-size: 30px;">
+            Ma come è fatta una scheda video al suo interno? <br>
+        </h6>
+        <p>
+            Possiamo osservare in questa foto:
+        </p>
+    </div>
+
+    <center>
+    <img src = "./sito_gpu/img_2(MODIFIED).jpg" width="1500" height="600" >
+    </img>
+    </center>
+
+
+    <br><br><br><br><br><br><br>
+
+    <h5 style = "font-size: 20px; text-align: center;">
+        Video che secondo me spiega bene i motivi della crescita dei prezzi:
+        <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RtHVXOMzbX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </h5>
+
+    <br><br><br><br><br>
+
+    <div style = "text-align: center;">
+        <a href = "#inizio"> clicca qui per tornare all'inizio </a>
+    </div>
+
+    <br><br>
+
+    <div id="footer">© 2022-ZIPPO107. My rights are all mine</div>
+
+</body>
+</html>
